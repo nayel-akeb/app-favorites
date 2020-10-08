@@ -1,0 +1,85 @@
+html{
+	font-family: "Sofia";
+	background-image:url("https://images.pexels.com/photos/207130/pexels-photo-207130.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue	;
+	text-align:center
+}
+h1{
+	color:hotpink;
+}
+p{
+	color:pink;
+}
+footer{
+	font-size:50%;
+	position:absolute;
+	bottom:10px;
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+}
+.column {
+	float: left;
+	width: 33%;
+}
+img{ 
+	border-radius:25px;
+}
+#Genshin, #Honkai, #GBF{ 
+	color:hotpink;
+}
+#Genshin {
+	background-color:rgba(51, 51, 204,0.45);
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	font-size:0%;
+	width:150px;
+	border-radius:25px;
+}
+#Honkai {
+	background-color:rgba(204, 51, 204,0.45);
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	width:150px;
+	font-size:0%;
+	border-radius:25px;
+	transition:0.5s;
+}
+
+#GBF {
+	background-color:rgba(204, 51, 	51,0.45);
+	text-align:center;
+	margin-left:10%;
+	margin-right:10%;
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+	width:150px;
+	font-size:0%;
+	border-radius:25px;
+	
+}
+#Genshin:hover {
+	font-size: 36px;
+}
+
+#Honkai:hover {
+	font-size: 36px;
+}
+#GBF:hover {
+	font-size: 36px;
+}
+a:visited {
+	color: lavender;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a:hover {
+	color: hotpink;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+a:link {
+	color: cyan;
+	text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
